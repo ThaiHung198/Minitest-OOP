@@ -27,7 +27,7 @@ public class StudensClass {
         return Grade;
     }
     public static double calculateAverage(StudensClass[] students) {
-        int totalAge = 0;
+        double totalAge = 0;
         for (StudensClass student : students) {
             totalAge += student.getAge();
         }
